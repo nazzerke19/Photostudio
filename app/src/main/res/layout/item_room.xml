@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/container_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+
+        android:id="@+id/item_room_img"
+        android:layout_width="99dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/item_room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Рум"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/item_room_img"
+        app:layout_constraintTop_toTopOf="@+id/container" />
+
+
+    <TextView
+        android:id="@+id/item_room_dlina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Ұзындығы"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/height"
+        app:layout_constraintTop_toBottomOf="@+id/item_room_name" />
+
+    <ImageView
+
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/height"
+        app:layout_constraintStart_toEndOf="@+id/item_room_img"
+        app:layout_constraintTop_toBottomOf="@+id/item_room_name" />
+
+    <ImageView
+
+        android:id="@+id/width"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/width"
+        app:layout_constraintStart_toEndOf="@+id/item_room_img"
+        app:layout_constraintTop_toBottomOf="@+id/height" />
+
+    <TextView
+        android:id="@+id/item_room_shirina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="Ені"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/width"
+        app:layout_constraintTop_toBottomOf="@+id/item_room_dlina" />
+
+    <TextView
+        android:id="@+id/item_room_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Бағасы"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/item_room_img"
+        app:layout_constraintTop_toBottomOf="@id/item_room_shirina" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

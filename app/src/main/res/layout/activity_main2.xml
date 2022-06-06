@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="center"
+android:background="@color/register_bk_color"
+android:focusableInTouchMode="true"
+android:gravity="center"
+tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/viewParent.headerText.NoMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Әдемі \nсәтті \nтүсіріп, \nесте \nсақтаңыз!"
+                android:textColor="@color/whiteTextColor"
+                android:textSize="40dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:src="@drawable/photostudio" />
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Біз кез-келген уақытта құжаттамаға шексіз сеніммен сіздің үміттеріңізге сәйкес нәтиже беруге және шығармашылық мазмұн арқылы бизнестің өсуін тездетуге көмектесуге дайынбыз."
+                android:textColor="@color/whiteTextColor"
+                android:textSize="16dp"
+
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/main2"
+                />
+            <TextView
+                style="@style/viewParent.headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Олай болса, \nтездетіп бастайық!\n"
+                android:textAlignment="center"
+                android:textColor="@color/whiteTextColor"
+                android:textSize="25dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/whiteTextColor"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp">
+
+
+                    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                        android:id="@+id/loginButton"
+                        style="@style/loginButton"
+                        android:layout_width="150dp"
+                        android:text="Кіру"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        app:initialCornerAngle="27dp"
+                        app:spinning_bar_color="#FFF"
+                        app:spinning_bar_padding="6dp"
+                        app:spinning_bar_width="4dp" />
+
+                    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                        android:id="@+id/registerBtn"
+                        style="@style/loginButton"
+                        android:layout_width="150dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Тіркелу"
+                        app:initialCornerAngle="27dp"
+                        app:spinning_bar_color="#FFF"
+                        app:spinning_bar_padding="6dp"
+                        app:spinning_bar_width="4dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="100dp"
+                android:padding="10dp"
+                android:src="@drawable/photstudio" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

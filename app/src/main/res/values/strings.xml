@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Photostudio</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Құпиясөз</string>
+    <string name="googlepay_button_content_description">Google Pay</string>
+    <string name="photograph1"><a href="https://instagram.com/keliss.den?igshid=NWRhNmQxMjQ=">Diana \nKelissova</a></string>
+
+    <string name="photograph2"><a href="https://instagram.com/ali.toleubaev?igshid=NWRhNmQxMjQ=">Ali \nToleubaev</a></string>
+    <string name="photograph3"><a href="https://instagram.com/madiyar.photo?igshid=NWRhNmQxMjQ=">Madiyar \nAsanuli</a></string>
+    <string name="photograph4"><a href="https://instagram.com/leemonchikk?igshid=NWRhNmQxMjQ=">\nKamila</a></string>
+</resources>

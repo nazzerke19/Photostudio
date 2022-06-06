@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "500682071148",
+    "project_id": "photostudio-a8e92",
+    "storage_bucket": "photostudio-a8e92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500682071148:android:7b2843775d5e40cedecc49",
+        "android_client_info": {
+          "package_name": "com.example.photostudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500682071148-pppvpc3nlcj56gb6d9rfnishpguggsqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGWjlY6x4CSWVWPs69DQ8DTovPq_5TeeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500682071148-pppvpc3nlcj56gb6d9rfnishpguggsqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
